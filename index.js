@@ -5,7 +5,6 @@ var Identica = function(options) {
   this.options = options;
 };
 
-
 /**
  * options:
  *   access_token
