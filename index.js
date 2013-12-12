@@ -7,11 +7,11 @@ var Identica = function(options) {
 
 /**
  * options:
- *   app_id
+ *   voxeo_id
  */
 Identica.prototype.voxeoAuthenticate = function(options, cb) {
   // Check if some parameters are missing
-  var x =  _.all(['subscriber_number'], function(i) {
+  var x =  _.all(['voxeo_id'], function(i) {
     return _.include(_.keys(options), i);
   });
 
