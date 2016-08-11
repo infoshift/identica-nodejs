@@ -1,6 +1,6 @@
 {
   "name": "identica-nodejs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Jesse Panganiban <jesse.panganiban@infoshiftinc.com>",
   "description": "Identica nodejs client",
   "contributors": [],
